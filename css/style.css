@@ -171,7 +171,7 @@ footer {
 }
 
   
-.gallery-wrap {
+.collections_gallery {
 	display: flex;
 	flex-direction: row;
 	width: 100%;
@@ -217,7 +217,7 @@ footer {
 /*collections two*/
 
 
-.gallery-wrap-two {
+.collections_gallery_two {
 	display: flex;
 	flex-direction: row;
 	width: 100%;
@@ -234,25 +234,25 @@ footer {
 .item-two:hover {
 	flex: 2;
 }
-  .item-two-1 { 
+.item-two-1 { 
 	background-image: url("../img/ganqing.JPG");
-  }
+}
   
-  .item-two-2 { 
+.item-two-2 { 
 	background-image: url("../img/firework.JPG")
-  }
+}
   
-  .item-two-3 { 
+.item-two-3 { 
 	background-image: url("../img/zhongli.JPG");
-  }
+}
   
-  .item-two-4 { 
+.item-two-4 { 
 	background-image: url("../img/xingqiu.jpg");
-  }
+}
   
-  .item-two-5 { 
+.item-two-5 { 
 	background-image: url("../img/xiao.JPG");
-  }
+}
 
 .fade-in {
 -webkit-animation: fadein 2s;
