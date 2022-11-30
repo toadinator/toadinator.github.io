@@ -15,6 +15,82 @@
 	background-image: url("../img/atsumu.png");
 }
 
+.collections_gallery_two {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 70vh;
+}
+
+/*illustrations two test*/
+
+.gallerytest {
+	padding-right: 10vw;
+	padding-left: 10vw;
+	padding-bottom: 5vw;
+	padding-top: 5vw;
+	max-width: 100%;
+	margin: 0 auto;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-auto-rows: 250px;
+	grid-auto-flow: dense;
+}
+
+.illust {
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*no-repeat if you want no repeat*/
+	border-radius: 10px;
+}
+
+.illust div img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+.illust-1 { 
+	background-image: url("../img/firstyears.jpg");
+}
+  
+.illust-2 { 
+	background-image: url("../img/will.PNG");
+}
+  
+.illust-3 { 
+	background-image: url("../img/childhood.jpg");
+}
+  
+.illust-4 { 
+	background-image: url("../img/wideakan.jpg");
+}
+  
+.illust-5 { 
+	background-image: url("../img/yantao.jpg");
+}
+
+.illust-6 { 
+	background-image: url("../img/tallakan.PNG");
+}
+
+/*stretch vertically*/
+
+.v-stretch{
+	grid-row: span 2;
+}
+
+/*stretch horizontally*/
+
+.h-stretch{
+	grid-column: span 2;
+}
+
+
 
 
 body {
@@ -341,6 +417,8 @@ hr {
   
 /*responsive*/
 
+
+/*
 @media(min-width: 900px)
 { 
 	.gallery {
@@ -351,6 +429,20 @@ hr {
 	.art {
 		margin: 0;
 		border: 0px;
+	}
+
+}
+*/
+
+@media only screen and (max-width: 600x)
+
+{
+	.v-stretch{
+		grid-row: span 1;
+	}
+
+	.h-stretch{
+		grid-column: span 1;
 	}
 
 }
