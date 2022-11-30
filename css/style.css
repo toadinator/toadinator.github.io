@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Inknut+Antiqua:wght@300&display=swap');
 
 
-/*illustrations images*/
+/*jamie's illustrations imgs*/
 
 .one { 
 	background-color: blue;
@@ -12,8 +12,19 @@
 }
 
 .albedo {
-	background-image: url("../img/atsumu.png");
+	background-image: url("../img/albedo.jfif");
 }
+
+.art {
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*no-repeat if you want no repeat*/
+	border-radius: 10px;
+}
+
+
 
 .collections_gallery_two {
 	display: flex;
@@ -214,13 +225,8 @@ h5 {
 	padding-bottom: 10vw;
 }
 
-.wrapper { 
-	padding:0;
-	margin:0;
-	width: 100%;
-}
 
-.gallery {
+.illustrationsgallery {
 	width: 95%;
 	margin: 20px;
 	display: flex;
@@ -253,7 +259,7 @@ footer {
   .wrapper {
 	padding: 75px 0;
 	margin: 0 auto;
-	width: 1140px;
+	width: 100%;
 }
 
   
