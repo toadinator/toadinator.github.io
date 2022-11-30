@@ -252,7 +252,7 @@ footer {
   .wrapper {
 	padding: 75px 0;
 	margin: 0 auto;
-	width: 1140px;
+	width: 100%;
 }
 
   
@@ -427,7 +427,7 @@ hr {
 /*responsive*/
 
 
-/*
+
 @media(min-width: 900px)
 { 
 	.gallery {
@@ -441,11 +441,16 @@ hr {
 	}
 
 }
-*/
+
 
 @media only screen and (max-width: 600x)
 
 {
+
+	.gallerytest{
+		grid-template-columns: 1fr;
+	}
+
 	.v-stretch{
 		grid-row: span 1;
 	}
