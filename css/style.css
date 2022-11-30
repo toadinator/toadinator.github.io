@@ -219,7 +219,7 @@ h5 {
 	margin:0;
 }
 
-.gallery {
+.illustrationsgallery {
 	width: 95%;
 	margin: 20px;
 	display: flex;
@@ -229,7 +229,8 @@ h5 {
 	box-sizing: border-box;
 }
 
-  .gallery img:hover {
+
+  .illustrationsgallery img:hover {
 	opacity: .5;
 	filter: brightness(100%);
 	transition: transform 1.2s;
