@@ -209,9 +209,6 @@ footer {
 	background-image: url("../img/tkym.png");
   }
 
- HEAD
-
-
 /*stretch vertically*/
 
 /*collections two*/
@@ -235,23 +232,23 @@ footer {
 	flex: 2;
 }
 .item-two-1 { 
-	background-image: url("../img/ganqing.JPG");
+	background-image: url("../img/ganqing.png");
 }
   
 .item-two-2 { 
-	background-image: url("../img/firework.JPG")
+	background-image: url("../img/firework.png")
 }
   
 .item-two-3 { 
-	background-image: url("../img/zhongli.JPG");
+	background-image: url("../img/zhongli.png");
 }
   
 .item-two-4 { 
-	background-image: url("../img/xingqiu.jpg");
+	background-image: url("../img/xingqiu.png");
 }
   
 .item-two-5 { 
-	background-image: url("../img/xiao.JPG");
+	background-image: url("../img/xiao.png");
 }
 
 .fade-in {
