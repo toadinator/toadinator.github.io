@@ -236,7 +236,8 @@ h5 {
 	box-sizing: border-box;
 }
 
-  .gallery img:hover {
+
+  .illustrationsgallery img:hover {
 	opacity: .5;
 	filter: brightness(100%);
 	transition: transform 1.2s;
@@ -434,7 +435,7 @@ hr {
 /*responsive*/
 
 
-/*
+
 @media(min-width: 900px)
 { 
 	.gallery {
@@ -448,11 +449,16 @@ hr {
 	}
 
 }
-*/
+
 
 @media only screen and (max-width: 600x)
 
 {
+
+	.gallerytest{
+		grid-template-columns: 1fr;
+	}
+
 	.v-stretch{
 		grid-row: span 1;
 	}
