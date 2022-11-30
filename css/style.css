@@ -4,6 +4,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Corben");
 
 
+/*illustrations images*/
+
+.one { 
+	background-color: blue;
+	width: 200px;
+}
+
+.albedo {
+	background-image: url("../img/atsumu.png");
+}
+
+
+
 body {
     background-color: black;
 	margin: 0 auto;
@@ -140,6 +153,8 @@ footer {
 	background-image: url("../img/tkym.png");
   }
 
+
+
 /*stretch vertically*/
 
 
@@ -169,16 +184,11 @@ hr {
 { 
 	.gallery {
 		flex-wrap: wrap;
-		justify-content: space-evenly;
+		justify-content: space-around;
 	}
 
-	.horiz {
-		max-width: 40%;
-		height: auto;
-	}
-
-	.vert {
-		max-width: 40%;
-		height: auto;
+	.art {
+		margin: 0;
+		border: 0px;
 	}
 }
