@@ -235,7 +235,14 @@ footer {
 	background-image: url("../img/xiao.JPG");
   }
 
+.fade-in {
+-webkit-animation: fadein 2s;
+}
 
+@-webkit-keyframes fadein {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
 
 hr {
 	width: 75%;
