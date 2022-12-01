@@ -13,7 +13,7 @@ body {
 .wrapper {
 	padding: 75px 0;
 	margin: 0 auto;
-	width: 100%;
+	max-width: 100%;
 }
 
 .portfolio-logo{
@@ -51,7 +51,9 @@ h5 {
 	display: flex;
 	font-family: 'Inknut Antiqua', serif;
 	color: #ffffff;
-	justify-content: center;
+	margin: auto;
+	width: 70%;
+	padding-bottom: 25px;
 }
 
 .header-image{
@@ -431,6 +433,11 @@ footer {
 	background-image: url("../img/tkym.png");
 }
 
+.description {
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}
 
 /*collections two genshin*/
 
@@ -483,6 +490,11 @@ footer {
 
 /*contact page styling*/
 
+.form {
+	display: flex;
+	justify-content: center;
+}
+
 .buttons{
 	display: flex;
 	flex-flow: row wrap;
@@ -495,19 +507,18 @@ footer {
 	flex-direction: column;
 	border-radius: 12px;
 	background-color: rgb(255, 255, 255);
-	margin-left: 25%;	
-	margin-right: 25%;
-	margin-bottom: 5%;	
-	margin-top: 5%;	
+	margin: auto;
+	margin-bottom: 40px;
 	font-family: 'Inknut Antiqua', serif;
 	box-shadow: 0 4px 12px 0 rgba(152, 160, 180, 10);
+	width: 80%;
 }
 
 
 .submitbutton{
 	box-shadow: 0 4px 12px 0 rgba(152, 160, 180, 10);
 	border: none;
-	width: 250px;
+	width: 50%;
 	padding: 10px;
 	margin-bottom: 50px;
 	font-size: 16px;
@@ -522,7 +533,7 @@ input {
 	border:10ch;
 	border-color: black;
 	padding: 1em;
-	width: 50%;
+	width: 60%;
 	border: 2px solid rgb(26, 60, 105);
 }
 
@@ -561,22 +572,51 @@ input:focus {
 	display: flex;
 	flex: wrap;
 	justify-content: space-around;
-	width: 15%;
+	width: 25%;
 	margin: auto;
 }
 
 /*media queries*/
 
 
-@media only screen and (min-width: 700px)
+@media only screen and (min-width: 750px)
 { 
 	.navigation {
 		grid-template-columns: repeat(5, 1fr);
 	}
+
+	.buttons{
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+	}
 	
+	.email-information {
+		margin-bottom: 5%;	
+		margin-top: 5%;	
+		width: 70%;
+	}
+	
+	
+	.submitbutton{
+		width: 250px;
+	}
+	
+	input {
+		font-family: 'Inknut Antiqua', serif;
+		background-color: rgb(255, 255, 255);
+		border:10ch;
+		border-color: black;
+		padding: 1em;
+		width: 60%;
+		border: 2px solid rgb(26, 60, 105);
+	}
+
 }
 
-@media (min-width: 1000px) {
+
+
+@media (min-width: 1200px) {
 
 	.aboutpics {
 		width: 60%;
@@ -588,4 +628,11 @@ input:focus {
 		border-radius: 10px;
 	}
 	
+	.email-information {
+		margin-left: 25%;	
+		margin-right: 25%;
+		margin-bottom: 5%;	
+		margin-top: 5%;	
+		width: auto;
+	}
 }
