@@ -202,7 +202,7 @@ footer {
 	border-radius: 10px;
 }
 
-.illust div img{
+.gallerytest div img{
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
@@ -467,20 +467,30 @@ hr {
 }
 
 
-@media only screen and (max-width: 600x)
+@media only screen and (max-width: 650px)
 
 {
 
 	.gallerytest{
 		grid-template-columns: 1fr;
+		grid-template-rows: 1fr;
+		border-radius: 10px;
 	}
 
 	.v-stretch{
-		grid-row: span 1;
+		grid-row: span 2;
 	}
 
 	.h-stretch{
 		grid-column: span 1;
 	}
 
+	.illust {
+		background-size:cover;
+		border-radius: 10px;
+	}
+
+	
+
+	
 }
