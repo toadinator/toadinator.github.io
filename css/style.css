@@ -490,6 +490,12 @@ hr {
 		border-radius: 10px;
 	}
 
+	.item:hover {
+		flex: 5;
+	}
+	.item-two:hover {
+		flex: 5;
+	}
 	
 
 	
