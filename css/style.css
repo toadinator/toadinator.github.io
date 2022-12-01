@@ -163,17 +163,11 @@ footer {
 
 /*jamie's illustrations imgs*/
 
-
 .pic:hover {
 	opacity: .5;
 	filter: brightness(100%);
 	transition: transform 1.2s;
 	transform: scale(1.1);
-	z-index: 1;
-}
-
-.pic:on-click {
-	height: 100vh;
 }
 
 
@@ -316,6 +310,13 @@ footer {
 
 /*tins illustrations */
 
+.illust:hover {
+	opacity: .5;
+	filter: brightness(100%);
+	transition: transform 1.2s;
+	transform: scale(1.1);
+}
+
 .gallerytest {
 	padding-right: 10vw;
 	padding-left: 10vw;
@@ -332,17 +333,9 @@ footer {
 
 .illust {
 	height: 100%;
-	background-position: center;
+	background-position: top;
 	background-size: cover;
 	background-repeat: no-repeat;
-	/*no-repeat if you want no repeat*/
-	border-radius: 10px;
-}
-
-.gallerytest div img{
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
 	border-radius: 10px;
 }
 
@@ -371,14 +364,6 @@ footer {
 }
 
 
-.gallerytest img:hover {
-	opacity: 1;
-	filter: brightness(100%);
-	transition: transform 0.4s;
-	transform: scale(1.07);
-	z-index: 1;
-  }
-
 /*stretch vertically*/
 
 .v-stretch{
@@ -389,6 +374,40 @@ footer {
 
 .h-stretch{
 	grid-column: span 2;
+}
+
+/*lightbox images in tins  gallery*/
+
+.bigger {
+	display: none;
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.8);
+	padding: 10px;
+}
+
+:target {
+	display: block;
+}
+
+.close {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	font-size: 3em;
+	color: #fff;
+	text-decoration: none;
+}
+
+.biggerimg {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	max-width: 100%;
 }
 
 
