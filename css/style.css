@@ -370,6 +370,59 @@ footer {
 	background-image: url("../img/tallakan.jpg");
 }
 
+.illust-7 { 
+	background-image: url("../img/linkclick.PNG");
+}
+
+.illust-8 { 
+	background-image: url("../img/posture.PNG");
+}
+
+.illust-9 { 
+	background-image: url("../img/xingyun.PNG");
+}
+
+.illust-10 { 
+	background-image: url("../img/timeskip.PNG");
+}
+
+.illust-11 { 
+	background-image: url("../img/cafe.PNG");
+}
+
+.illust-12 { 
+	background-image: url("../img/scarfs.PNG");
+}
+
+.illust-13 { 
+	background-image: url("../img/firefly.PNG");
+}
+
+.illust-14 { 
+	background-image: url("../img/waiterxingqiu.PNG");
+}
+
+.illust-15 { 
+	background-image: url("../img/taylor.PNG");
+}
+
+.illust-16 { 
+	background-image: url("../img/snowman.PNG");
+}
+
+
+.illust-17 { 
+	background-image: url("../img/captain.PNG");
+}
+
+
+.illust-18 { 
+	background-image: url("../img/pfp.PNG");
+}
+
+
+
+
 
 
 /*lightbox images in tins  gallery*/
@@ -613,6 +666,10 @@ input:focus {
 @media only screen and (min-width: 750px)
 { 
 
+	.navigation {
+		grid-template-columns: repeat(5, 1fr);
+		}
+
 	.buttons{
 		display: flex;
 		flex-flow: row wrap;
@@ -642,6 +699,7 @@ input:focus {
 
 
 }
+
 
 @media (min-width: 1200px) {
 
