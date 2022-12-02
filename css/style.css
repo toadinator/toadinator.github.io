@@ -271,6 +271,10 @@ footer {
 	background-image: url("../img/water bottle.jpg");
 }
 
+.pic-19 {
+	background-image: url("../img/water.jpg");
+}
+
 /*lightbox images in the gallery*/
 
 .enlarged {
@@ -513,7 +517,7 @@ footer {
 }
 
 .item-5 { 
-	background-image: url("../img/timeskip.PNG");
+	background-image: url("../img/hqcsm.PNG");
 }
 
 .description {
