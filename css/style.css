@@ -610,15 +610,8 @@ input:focus {
 /*media queries*/
 
 
-@media screen and (min-width: 750px)
+@media only screen and (min-width: 750px)
 { 
-
-
-		
-		
-	.navigation {
-		grid-template-columns: repeat(5, 1fr);
-	}
 
 	.buttons{
 		display: flex;
@@ -647,14 +640,8 @@ input:focus {
 		border: 2px solid rgb(26, 60, 105);
 	}
 
-	.illustrationsgallery {
-		display: flex;
-        flex-direction: column;
-	  }
 
 }
-
-
 
 @media (min-width: 1200px) {
 
@@ -676,4 +663,3 @@ input:focus {
 		width: auto;
 	}
 }
-
